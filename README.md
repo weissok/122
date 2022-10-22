@@ -16,5 +16,6 @@ https://openprocessing.org/user/344082?view=activity&o=1#topPanel
 3)перевод в другую систему счисления с условием; 
 4)Азбука Морзе в Excel; 
 5)таблица умножения 8ричной системы
-13) ege.py - егэшная задача 
-14) https://loki478.wordpress.com/ - сайт на wordpress 
+8) ege.py - егэшная задача 
+9) https://loki478.wordpress.com/ - сайт на wordpress 
+10) нейронка.png - фото нейронки 
