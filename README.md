@@ -21,3 +21,4 @@ https://openprocessing.org/user/344082?view=activity&o=1#topPanel
 10) нейронка.png - фото нейронки 
 11) https://codepen.io/weissok - codepen
 12) SQL.txt - SQL файл
+13)https://latexeditor.lagrida.com/ - работа в latex закон де Моргана
