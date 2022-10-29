@@ -21,7 +21,7 @@ https://openprocessing.org/user/344082?view=activity&o=1#topPanel
 10) нейронка.png - фото нейронки 
 11) https://codepen.io/weissok - codepen
 12) SQL.txt - SQL файл
-13)https://latexeditor.lagrida.com/ - работа в latex закон де Моргана
-14) Законы логики 16 формула (Закон де Моргана):
+
+13) Законы логики 16 формула (Закон де Моргана):
 $$\overline{A \vee_{}^{} B} = \overline{A} \ \wedge_{}^{}\overline{B}$$
 ![image](https://user-images.githubusercontent.com/114381760/198812919-26209141-f830-4e62-a1cf-6514a24170bf.png)
