@@ -26,4 +26,5 @@ https://openprocessing.org/user/344082?view=activity&o=1#topPanel
 $$\overline{A \vee_{}^{} B} = \overline{A} \ \wedge_{}^{}\overline{B}$$
 ![image](https://user-images.githubusercontent.com/114381760/198812919-26209141-f830-4e62-a1cf-6514a24170bf.png)
 14) какая-то формула:
+
 $$\bar{E\mathrm{}_{0}^{2}}=\sqrt{\frac{Fa\mathrm{}_{0}^{2}}{\left( x-1 \right)x}} + \alpha\mathrm{}_{1}^{2} + \beta\mathrm{}_{1}^{2}$$
