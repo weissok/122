@@ -28,4 +28,5 @@ $$\overline{A \vee_{}^{} B} = \overline{A} \ \wedge_{}^{}\overline{B}$$
 14) какая-то формула:
 
 $$\bar{E_{0}^{2}}=\sqrt{\frac{Fa_{0}^{2}}{\left( x-1 \right)x}} + \alpha\mathrm{}_{1}^{2} + \beta\mathrm{}_{1}^{2}$$
+
 ![image](https://user-images.githubusercontent.com/114381760/201590129-b7a82887-dcbb-48a5-b503-43b210a7f94e.png)
