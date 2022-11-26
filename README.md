@@ -32,3 +32,4 @@ $$\bar{E_{0}^{2}}=\sqrt{\frac{Fa_{0}^{2}}{\left( x-1 \right)x}} + \alpha\mathrm{
 ![image](https://user-images.githubusercontent.com/114381760/201590129-b7a82887-dcbb-48a5-b503-43b210a7f94e.png)
 
 15) кодирование3.py - универсальный решатель
+16)slide.py - слайд шоу
