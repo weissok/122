@@ -33,3 +33,12 @@ $$\bar{E_{0}^{2}}=\sqrt{\frac{Fa_{0}^{2}}{\left( x-1 \right)x}} + \alpha\mathrm{
 
 15) кодирование3.py - универсальный решатель
 16)slide.py - слайд шоу
+
+```mermaid
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
