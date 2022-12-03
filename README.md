@@ -37,8 +37,8 @@ $$\bar{E_{0}^{2}}=\sqrt{\frac{Fa_{0}^{2}}{\left( x-1 \right)x}} + \alpha\mathrm{
 ```mermaid
 flowchart LR
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+A[10 класс] -->|Аттестация| B(11 класс)
+B --> C{ЕГЭ}
+C -->|Сдаешь хорошо| D[Поступаешь в универститет]
+C -->|Сдешь плохо| E[Идешь на трассу]
 ```
