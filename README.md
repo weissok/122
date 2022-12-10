@@ -45,3 +45,7 @@ C --> E[Девочка]
 E --> |Плохо|I[Домой] 
 E--> |Хорошо|K[Универ]
 ```
+
+
+17)Веточка в Inkscape
+![image](https://user-images.githubusercontent.com/114893510/206829527-a42fc473-5607-4293-b4dc-a888e096e4f6.png)
