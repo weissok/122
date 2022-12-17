@@ -51,24 +51,25 @@ E--> |Хорошо|K[Универ]
 ![image](https://user-images.githubusercontent.com/114893510/206829527-a42fc473-5607-4293-b4dc-a888e096e4f6.png)
 | Задание | Статус |
 | ------ | ------ |
+| 1 | 53 |
 | 2 | 1 |
-| 3 | [] |
-| 4 | [] |
-| 5 | [] |
-| 6 | [] |
-| 7 | [plugins/googleanalytics/README.md][PlGa] |
-| 8 | [plugins/medium/README.md][PlMe] |
-| 9 | [plugins/medium/README.md][PlMe] |
-| 10 | [plugins/medium/README.md][PlMe] |
-| 11 | [plugins/medium/README.md][PlMe] |
-| 12 | [plugins/medium/README.md][PlMe] |
-| 13 | [plugins/medium/README.md][PlMe] |
-| 14 | [plugins/medium/README.md][PlMe] |
-| 15 | [plugins/medium/README.md][PlMe] |
-| 16 | [plugins/medium/README.md][PlMe] |
-| 17 | [plugins/medium/README.md][PlMe] |
-| 18 | [plugins/medium/README.md][PlMe] |
-| 19 | [plugins/medium/README.md][PlMe] |
-| 20 | [plugins/medium/README.md][PlMe] |
-| 21 | не готово |
-| Medium | [plugins/medium/README.md][PlMe] |
+| 3 |  |
+| 4 |  |
+| 5 |  |
+| 6 |  |
+| 7 |  |
+| 8 |  |
+| 9 |  |
+| 10 |  |
+| 11 |  |
+| 12 |  |
+| 13 |  |
+| 14 |  |
+| 15 |  |
+| 16 |  |
+| 17 | |
+| 18 |  |
+| 19 |  |
+| 20 |  |
+| 21 |  |
+
