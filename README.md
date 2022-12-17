@@ -51,11 +51,11 @@ E--> |Хорошо|K[Универ]
 ![image](https://user-images.githubusercontent.com/114893510/206829527-a42fc473-5607-4293-b4dc-a888e096e4f6.png)
 | Plugin | README |
 | ------ | ------ |
-| Dropbox | [] |
+| Dropbox | [1] |
 | GitHub | [] |
 | Google Drive | [] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
+| OneDrive | [] |
+| Medium | [] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Medium | [plugins/medium/README.md][PlMe] |
