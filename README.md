@@ -50,7 +50,7 @@ E--> |Хорошо|K[Универ]
 17)Веточка в Inkscape
 ![image](https://user-images.githubusercontent.com/114893510/206829527-a42fc473-5607-4293-b4dc-a888e096e4f6.png)
 | Задание | Статус |
-| 1 | ------ |
+| ------ | ------ |
 | 2 | 1 |
 | 3 | [] |
 | 4 | [] |
@@ -71,4 +71,4 @@ E--> |Хорошо|K[Универ]
 | 19 | [plugins/medium/README.md][PlMe] |
 | 20 | [plugins/medium/README.md][PlMe] |
 | 21 | не готово |
-
+| Medium | [plugins/medium/README.md][PlMe] |
