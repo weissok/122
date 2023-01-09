@@ -1,0 +1,7 @@
+from itertools import product
+p = product('абвгдя', repeat = 3)
+n = 0
+for x in p:
+    if x.count('я') == 0:
+        n += 1 
+print (n*2)
