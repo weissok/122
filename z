@@ -1,0 +1,8 @@
+s = 'школа'
+n = 0
+for a in s: 
+    for b in s:
+        for c in s:
+            if (a + b + c). count('k') == 1:
+                n+=1
+print(n)
