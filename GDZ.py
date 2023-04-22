@@ -6,8 +6,10 @@ urls = {
     'Amazon':'https://www.amazon.com/',
     'NASA'  :'https://www.nasa.gov/',
     'Python':'https://www.python.org/',
-        }  # Set the theme
+        }
+
 s=['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19, 20, 21','22','23','24','25','26','27b']
+pic = ['4.png','5.png','6.png','7.png','1.png','1.png','1.png','1.png','8.png','9.png','1.png','10.png','2.png','11.png','12.png','1.png','1.png','1.png','3.png','13.png','1.png','1.png','1.png','1.png','1.png']
 a=[
 '''
 1) определить точки, из которых выходят 3 линии
@@ -41,6 +43,7 @@ print(a)
 2) оранизовать алгортм задачи
 3) рисуем точки из начала координат с помощью goto()
 4) считаем точки
+
 from turtle import *
 left(90)
 for i in range(7):
@@ -111,7 +114,9 @@ print(c)''',
 '''
 1) открыть файл, нажать "Ctrl + f"
 2) выбрать параметры поиска: "учитывать регист" и "Только слово целиком"
-''','''11   
+
+''','''
+11)   
 ''',
 '''
 nums=[2,3,5,7]
@@ -228,10 +233,10 @@ with open('26.txt') as f:
 
 ]
 # Define the layout
-layout = [[sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readonly=True, k='-COMBO-', key='Combo'),
-          sg.Output(s=(90,50), key='outputt')],
-          [sg.Button('Process Input', font=('Arial', 12), button_color=('white', '#4CAF50'), key='process'),
-           sg.Button('urls', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')]]
+layout = [[sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readonly=True, k='-COMBO-', key='Combo'), 
+           sg.Button('Process Input', font=('Arial', 12), button_color=('white', '#4CAF50'), key='process'),
+           sg.Button('urls', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')],
+          [sg.Output(s=(60,20), key='outputt'),sg.Image('1.png',expand_x=True, expand_y=True,key='picture')]]
 
 # Create the window
 window = sg.Window('ЕГЭ архив by Вайс Максим', layout)
@@ -248,30 +253,33 @@ while True:
     if event == 'process':
         choice=a[s.index(values['Combo'])]
         window['outputt'].update(choice)
+        window['picture'].update(pic[s.index(values['Combo'])])
     if event == 'button':
-       urls = {
+        items = sorted(urls.keys())
+
+        sg.theme("DarkBlue")
+        font = ('Courier New', 16, 'underline')
+
+        layout = [[sg.Text(txt, tooltip=urls[txt], enable_events=True, font=font,
+        key=f'URL {urls[txt]}')] for txt in items]
+        window = sg.Window('URL', layout, size=(250, 150), finalize=True)
+
+        while True:
+            event, values = window.read()
+            if event == sg.WINDOW_CLOSED:
+                break
+            elif event.startswith("URL "):
+                url = event.split(' ')[1]
+                webbrowser.open(url)
+            print(event, values)
+            
+        urls = {
     'Google':'https://www.google.com',
     'Amazon':'https://www.amazon.com/',
     'NASA'  :'https://www.nasa.gov/',
     'Python':'https://www.python.org/',
+    
 }
 
-    items = sorted(urls.keys())
 
-    sg.theme("DarkBlue")
-    font = ('Courier New', 16, 'underline')
-
-    layout = [[sg.Text(txt, tooltip=urls[txt], enable_events=True, font=font,
-    key=f'URL {urls[txt]}')] for txt in items]
-    window = sg.Window('Hyperlink', layout, size=(250, 150), finalize=True)
-
-    while True:
-        event, values = window.read()
-        if event == sg.WINDOW_CLOSED:
-            break
-        elif event.startswith("URL "):
-            url = event.split(' ')[1]
-            webbrowser.open(url)
-        print(event, values)
-# Close the window
 window.close()
